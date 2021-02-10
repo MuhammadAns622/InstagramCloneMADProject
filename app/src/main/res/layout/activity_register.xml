@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+xmlns:android="http://schemas.android.com/apk/res/android"
+
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+android:padding="10dp"
+android:background="#E5989B"
+
+tools:context=".RegisterActivity">
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:backgroundTint="@color/common_google_signin_btn_text_dark"
+    android:src="@drawable/logo"
+    tools:targetApi="lollipop" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="UserName"
+    android:layout_marginTop="15dp"
+    android:id="@+id/etUsername"
+    android:padding="10dp"
+    android:background="@drawable/edittext_bacground" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Full Name"
+    android:layout_marginTop="15dp"
+    android:id="@+id/etFullName"
+    android:padding="10dp"
+    android:background="@drawable/edittext_bacground" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Email"
+    android:inputType="textEmailAddress"
+    android:layout_marginTop="15dp"
+    android:id="@+id/etEmail"
+    android:padding="10dp"
+    android:background="@drawable/edittext_bacground" />
+
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Password"
+    android:layout_marginTop="15dp"
+    android:id="@+id/etPassword"
+    android:inputType="textPassword"
+    android:padding="10dp"
+    android:background="@drawable/edittext_bacground" />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnRegister"
+    android:text="Register"
+    android:textColor="@color/design_default_color_on_primary"
+    android:background="@drawable/button_backgroynd"
+    android:layout_marginTop="15dp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Already have an account? Login"
+    android:id="@+id/tvLogin"
+    android:layout_marginTop="10dp"
+    tools:ignore="HardcodedText" />
+
+
+
+</LinearLayout>
+
